@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cointainer1">
+        <div class="cointainer2">
+         <input type="text" placeholder="0"  class="text-cointainer" id="input">
+        
+         <div class="row">
+            <button class ="cc" onclick="clr()">AC</button>
+            <button class="cc" onclick="remove()">del</button>
+            <button class="cc" onclick="show('%')">%</button>
+            <button class="cc">/</button>
+         </div>
+
+         <div class="row">
+            <button onclick="show('7')">7</button>
+            <button onclick="show('8')">8</button>
+            <button onclick="show('9')">9</button>
+            <button class="cc" onclick="show('*')">x</button>
+        </div>
+
+        <div class="row">
+            <button onclick="show('4')">4</button>
+            <button onclick="show('5')">5</button>
+            <button onclick="show('6')">6</button>
+            <button class="cc" onclick="show('-')">-</button>
+         </div>
+
+         <div class="row">
+            <button onclick="show('1')">1</button>
+            <button onclick="show('2')">2</button>
+            <button onclick="show('3')">3</button>
+            <button class="cc" onclick="show('+')">+</button>
+        </div>
+
+        <div class="row">
+            <button onclick="show('.')">.</button>
+            <button onclick="show('0')">0</button>
+            <button onclick="show('00')">00</button>
+            <button class="hh" onclick="calculate()">=</button>
+        </div>
+        
+    </div>
+ </div>
+    <script src="app.js"></script>
+</body>
+</html>
